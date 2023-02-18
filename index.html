@@ -45,12 +45,7 @@
 </head>
 <body>
    <link href="https://cdn.discordapp.com/attachments/1075585543955546183/1075984444722249748/57e3c1f79d2d63dc40f553c0abb30943.png" rel="preconnect">
-   <link href="https&#x3A;&#x2F;&#x2F;assets.jwwb.nl&#x2F;assets&#x2F;fonts&#x2F;website-rendering&#x2F;font&#x2F;website-rendering.woff2&#x3F;bust&#x3D;8491e4ff84bdcb0358c9" rel="preload" crossorigin="1" as="font">
-   <link href="https&#x3A;&#x2F;&#x2F;assets.jwwb.nl" rel="preconnect">
-   <link href="https&#x3A;&#x2F;&#x2F;assets.jwwb.nl&#x2F;assets&#x2F;website-rendering&#x2F;styles.cf531f1d8138ff6bf16a.css&#x3F;bust&#x3D;cf531f1d8138ff6bf16a" rel="preload" as="style">
    <link href="https&#x3A;&#x2F;&#x2F;assets.jwwb.nl&#x2F;assets&#x2F;website-rendering&#x2F;styles.cf531f1d8138ff6bf16a.css&#x3F;bust&#x3D;cf531f1d8138ff6bf16a" media="screen" rel="stylesheet" type="text&#x2F;css">
-   <link href="https&#x3A;&#x2F;&#x2F;gfonts.jwwb.nl" rel="preconnect">
-   <link href="https&#x3A;&#x2F;&#x2F;gfonts.jwwb.nl&#x2F;css&#x3F;display&#x3D;fallback&amp;family&#x3D;Open&#x2B;Sans&#x25;3A400&#x25;2C700&#x25;2C400italic&#x25;2C700italic&#x25;7CQuicksand&#x25;3A400&#x25;2C700&#x25;2C400italic&#x25;2C700italic" media="screen" rel="stylesheet" type="text&#x2F;css">
    <link
       type="text/css"
       rel="stylesheet"
@@ -92,7 +87,7 @@
                   <h1        id="jw-header-title"
                      class="jw-header-title"
                      >
-                     <span style="display: inline-block; font-size: 26px;">Nova - Esports 3.0</span>    
+                     <span style= color:#A020F0; "display: inline-block; font-size: 26px;">Nova - Esports 3.0</span>    
                   </h1>
                </div>
             </div>
@@ -109,92 +104,25 @@
          <div class="bx-wrapper bx-viewport">
             <ul>
                <li class="jw-slideshow-slide">
-                  <div data-key="0" data-text="Join The Clan And Enlist Now!" data-subtext="" data-buttontext="" data-buttontarget="_self" data-backdrop="1" data-layout="title-text" style="background-position: 50% 50%; background-image: url(&#039;https://i.vimeocdn.com/video/1386295633-d7981cc002da42d6ae208e6150e40f0d40de094f8fd821ebc4e9769dadbdba03-d_1920x1080?r=pad&#039;);" data-background-position-x="0.5" data-background-position-y="0.5" class="jw-slideshow-slide-content jw-slideshow-slide-content-cover jw-slideshow--backdrop jw-is-slideshow-captions" >
+                  <div data-key="0" data-text="Join The Clan And Enlist Now!" data-subtext="" data-buttontext="" data-buttontarget="_self" data-backdrop="1" data-layout="title-text" style="background-position: 50% 50%;" data-background-position-x="0.5" data-background-position-y="0.5" class="jw-slideshow-slide-content jw-slideshow-slide-content-cover jw-slideshow--backdrop jw-is-slideshow-captions" >
                      <div class="jw-slideshow-slide-container">
                         <div
-                           class="jw-slideshow-slide-video"
-                           style="top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); padding-bottom: 56.25%"
-                           data-video-width="1920"
-                           data-video-height="1080"
                            >
-                           <iframe
-                              class="jw-slideshow-slide-video-frame"
-                              src="https://player.vimeo.com/video/683858982?background=1&dnt=1"
-                              width="100%"
-                              height="100%"
-                              frameborder="0"
-                              webkitallowfullscreen
-                              mozallowfullscreen
-                              allowfullscreen
-                              ></iframe>
                         </div>
                      </div>
-                     <div class="jw-slideshow-slide-backdrop"></div>
-                     <div class="bx-caption-wrapper jw-slideshow-slide-align-center">
-                        <div class="bx-caption">
-                           <div class="jw-slideshow-title">Join The Clan And Enlist Now!</div>
-                        </div>
+                     <div class="bx-caption">
+                        <div style="color: #FFA500;" class="jw-slideshow-title">Join The Clan And Enlist Now!</div>
                      </div>
                   </div>
-               </li>
-            </ul>
          </div>
-         <div class="jw-slideshow__scroll-arrow">
-            <i class="website-rendering-icon-down-open-big"></i>
-         </div>
-         <style>
-            .jw-slideshow-slide-content {
-            min-height: 43vh;
-            }
-            @media screen and (min-height: 1200px) {
-            .jw-slideshow-slide-content {
-            min-height: 516px;
-            }
-            }
-         </style>
+         </li>
+         </ul>
       </div>
-      <script>
-         JOUWWEB.templateConfig = {
-             header: {
-                 selector: '.header-wrap',
-                 mobileSelector: '.jw-mobile-menu',
-                 updatePusher: function (headerHeight) {
-                     var $sliderStyle = $('#sliderStyle');
-         
-                     if ($sliderStyle.length === 0) {
-                         $sliderStyle = $('<style />')
-                             .attr('id', 'sliderStyle')
-                             .appendTo(document.body);
-                     }
-         
-                     $sliderStyle.html('.jw-slideshow-slide-content { padding-top: ' + headerHeight + 'px; padding-bottom: ' + (headerHeight * (2/3)) + 'px; } .bx-controls-direction { margin-top: ' + (headerHeight * (1/6)) + 'px; }');
-         
-                     // make sure slider also gets correct height (because of the added padding)
-                     $('.jw-slideshow-slide[aria-hidden=false]').each(function (index) {
-                         var $this = $(this);
-                         headerHeight = $this.outerHeight() > headerHeight ? $this.outerHeight() : headerHeight;
-                         $this.closest('.bx-viewport').css({
-                             height: headerHeight + 'px',
-                         });
-                     });
-         
-                     // If a page has a slideshow and message-bar, offset the mobile nav.
-                     const $messageBar = $('.jw-is-slideshow .message-bar');
-                     if ($messageBar.length > 0) {
-                         $('.js-mobile-menu, .jw-menu-clone').css('top', $messageBar.outerHeight());
-                     }
-                 },
-             },
-             mainContentOffset: function () {
-                 return $('.main').offset().top - ($('body').hasClass('jw-menu-is-mobile') ? 0 : 60);
-             },
-         };
-      </script>
       <!--tabs-->
       <head>
          <style>
             body {
-            background-image: url('https://i.pinimg.com/originals/96/1e/7b/961e7b5ab22f51655970cc4e7bf2bd07.jpg');
+            background-image: url('https://cdn.discordapp.com/splashes/966585960366239784/398f58934a3d2c2189276bad0cf94394.jpg?size=2048');
             background-repeat: no-repeat;
             background-attachment: fixed;  
             background-size: cover;
@@ -241,16 +169,16 @@
       </head>
       <body>
          <div class="tab">
-            <button class="tablinks" onclick="openCity(event, 'home')">Home</button>
-            <button class="tablinks" onclick="openCity(event, 'about')">About</button>
-            <button class="tablinks" onclick="openCity(event, 'contact')">Contact</button>
-            <button class="tablinks" onclick="openCity(event, 'link')">links</button>
+            <button style="color: #A020F0;" class="tablinks" onclick="openCity(event, 'home')">Home</button>
+            <button style="color: #FFA500;" class="tablinks" onclick="openCity(event, 'about')">About</button>
+            <button style="color: #A020F0;" class="tablinks" onclick="openCity(event, 'contact')">Contact</button>
+            <button style="color: #FFA500;" class="tablinks" onclick="openCity(event, 'link')">links</button>
          </div>
          <div id="home" class="tabcontent">
             <div id="serverinvite">
                <style>
                   .button {
-                  background-color: #6dc1dd;
+                  background-color: #FFA500;
                   border-radius: none;
                   color: white;
                   padding: 12px 16px;
@@ -266,12 +194,12 @@
                   <center><a href="https://discord.gg/novagaming" class="button" target="_blank">Click to join nova discord</a></center>
 </body>
 <br>
-<h3  style="color: #000000;" style="text-align: left;" class="jw-heading-70">Donations - Solana Chain :&nbsp;<em><span style="font-size: 1.4rem;">Hp6Qyx3K9McpE1w2V7LbNU1NpwjwpqRiiggrcveNrtHF<br><br>All Donations go to improving the clan/site and for future giveaways</span></em></h3>
+<h3 style="color: #FFA500;"text-align: left;" class="jw-heading-70">Donations - Solana Chain :&nbsp;<em>"Hp6Qyx3K9McpE1w2V7LbNU1NpwjwpqRiiggrcveNrtHF<br><br>All Donations go to improving the clan/site and for future giveaways</span></em></h3>
 </div></div></body></body>
 </div>
 <div id="about" class="tabcontent">
    <br>
-   <strong style="color: #000000;">Nova is a gaming clan focused on web3 Play-To-Earn concept games. Our maintream game right now is ev.io. Ev is a HALO like web3 browser shooter game based on solana where you get paid for each kill, and the best part is, you dont even need to buy anything to get started on your way!&nbsp;<br><br>Join the Discord Below for more info and clan giveaways, GLHF! - Royce</strong>
+   <p><span style="color: #ffff00;"><strong>Nova is a gaming clan focused on web3 Play-To-Earn concept games. Our maintream game right now is ev.io. Ev is a HALO like web3 browser shooter game based on solana where you get paid for each kill, and the best part is, you dont even need to buy anything to get started on your way!&nbsp;<br /><br />Join the Discord Below for more info and clan giveaways, GLHF! - Royce</strong></span></p>
    <br>
 </div>
 <div id="contact" class="tabcontent">
@@ -279,21 +207,21 @@
       <div id="jw-element-202036135" data-jw-element-id="202036135" style="width: 24.97745716862%" class="jw-tree-node jw-element jw-container jw-tree-container jw-node-is-first-child lt300 lt400 lt480 lt540 lt600 lt800 lt200">
          <div id="jw-element-202036180" data-jw-element-id="202036180" class="jw-tree-node jw-element jw-image-text jw-node-is-first-child jw-node-is-last-child">
             <div class="jw-element-imagetext-text">
-               <h3  style="color: #000000;"class="jw-heading-70">RoyceClub#0001</h3>
+               <h3  style="color: #FFA500;"class="jw-heading-70">RoyceClub#0001</h3>
             </div>
          </div>
       </div>
       <div id="jw-element-202036137" data-jw-element-id="202036137" style="width: 24.97745716862%" class="jw-tree-node jw-element jw-container jw-tree-container lt300 lt400 lt480 lt540 lt600 lt800 lt200">
          <div id="jw-element-202036353" data-jw-element-id="202036353" class="jw-tree-node jw-element jw-image-text jw-node-is-first-child jw-node-is-last-child">
             <div class="jw-element-imagetext-text">
-               <h3 class="jw-heading-70"><span  style="color: #000000;">Para₿◎lic</span style="color: #000000;">#8643</h3>
+               <h3 class="jw-heading-70"><span  style="color: #A020F0;">Para₿◎lic#8643</h3>
             </div>
          </div>
       </div>
       <div id="jw-element-202044059" data-jw-element-id="202044059" style="width: 50.045085662759%" class="jw-tree-node jw-element jw-container jw-tree-container jw-node-is-last-child lt800 lt400 lt480 lt540 lt600">
          <div id="jw-element-202044144" data-jw-element-id="202044144" class="jw-tree-node jw-element jw-image-text jw-node-is-first-child jw-node-is-last-child">
             <div class="jw-element-imagetext-text">
-               <h3  style="color: #000000;" class="jw-heading-70"><a  style="color: #000000;" href="mailto:Egoflash99@proton.me,">Egoflash99@proton.me,</a  style="color: #000000;">&nbsp;or give us a DM on twitter!</h3>
+               <p><span style="color: #FFA500;"><a style="color: #ffcc00;" href="mailto:Egoflash99@proton.me">Egoflash99@proton.me</a>, or dm us at twitter!</span></p>
             </div>
          </div>
       </div>
@@ -302,7 +230,7 @@
    <div id="contact">
       <style>
          .button {
-         background-color: #6dc1dd;
+         background-color: #FFA500;
          border-radius: none;
          color: white;
          padding: 12px 16px;
@@ -357,10 +285,8 @@
      evt.currentTarget.className += " active";
    }
 </script>
-</body></div>=
-<strong  style="color: #000000;" class="jw-footer-text-content">
-   © 2022 - 2023 Nova Gaming
-</strong>
+</body></div>
+<strong  style="color: #FFA500;" class="jw-footer-text-content">© 2022 - 2023 Nova Gaming | still thinking on what will the site look like 💀</strong>
 <!--embed starts here-->
 <meta content="Nova website" property="og:title" />
 <meta content="ev.io nova website" property="og:description" />
